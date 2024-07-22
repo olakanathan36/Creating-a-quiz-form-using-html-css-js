@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        
+        <div class="main">
+            <div class="quiz-container">
+                <h1>In Web design ,What does CSS stand for?</h1>
+
+            </div>
+            <div class="choice">
+                <ul>
+                    <li><div class="option1" id='one'onclick="result()">
+                        <button>A</button> Counter Strike :Source
+                    </div></li>
+                    <li><div class="option1" id="two" onclick="result2()">
+                        <button>B</button> Counter Strike :Sheet
+                    </div></li>
+                    <li><div class="option1" id="three" onclick="result3()">
+                        <button>C</button> Counter Strike :Sheet
+                    </div></li>
+                    <li><div class="option1" id="four" onclick="result4()">
+                        <button>D</button> Counter Strike :Sheet
+                    </div></li>
+                </ul>
+            </div>
+            <div class="next">
+                <button>next</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        let option1=document.getElementById('one');
+        let option2=document.getElementById('two');
+        let option3=document.getElementById('three');
+        let option4=document.getElementById('four');
+
+        function result(){
+            option1.style.backgroundColor="red";
+        }
+        function result2(){
+            option2.style.backgroundColor="red";
+
+        }
+        function result3(){
+            option3.style.backgroundColor="red";
+
+        }
+        function result4(){
+            option4.style.backgroundColor="green";
+            alert("click next to move to next question");
+
+
+        }
+    </script>
+</body>
+</html>

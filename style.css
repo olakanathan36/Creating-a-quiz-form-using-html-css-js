@@ -1,0 +1,49 @@
+.option1{
+    border: 1px solid;
+    width: 300px;
+    
+}
+li{
+    padding: 2px;
+    list-style: none;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(238, 193, 218);
+    
+}
+@media (min-width:600px;) screen and (max-width:1200;) {
+    .main{
+        width: 300px;
+    }
+}
+button{
+    background-color: transparent;
+   
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+li div{
+    padding: 10px;
+    background-color: aliceblue;
+}
+.next{
+    text-align: center;
+    
+}
+.next button{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
